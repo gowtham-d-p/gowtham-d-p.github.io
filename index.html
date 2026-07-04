@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowtham D P | Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .glass { background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-glow:hover { box-shadow: 0 0 25px rgba(56, 189, 248, 0.15); }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-sky-500 selection:text-white overflow-x-hidden">
+
+    <!-- PRELOADER WHEEL -->
+    <div id="preloader" class="fixed inset-0 z-50 bg-slate-950 flex flex-col items-center justify-center transition-opacity duration-700">
+        <div class="relative flex items-center justify-center">
+            <i class="fa-solid fa-gear text-6xl text-sky-500/20 animate-[spin_8s_linear_infinite] absolute"></i>
+            <i class="fa-solid fa-cog text-4xl text-sky-400 animate-[spin_3s_linear_infinite]"></i>
+        </div>
+        <div class="mt-6 text-center space-y-1">
+            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-slate-200">Gowtham D P</h2>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-sky-400 font-semibold">Mechanical Engineering & Automation</p>
+        </div>
+        <div class="w-32 h-[2px] bg-slate-900 mt-4 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-sky-500 to-indigo-500 w-full animate-[pulse_1.5s_ease-in-out_infinite]"></div>
+        </div>
+    </div>
+
+    <!-- NAVBAR HEADER -->
+    <header class="fixed top-0 left-0 w-full z-40 glass border-b border-slate-800">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-sky-400">GOWTHAM D P</a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium tracking-wide">
+                <a href="#hero" class="hover:text-sky-400 transition-colors">About</a>
+                <a href="#experience" class="hover:text-sky-400 transition-colors">Experience</a>
+                <a href="#work" class="hover:text-sky-400 transition-colors">My Work</a>
+                <a href="#skills" class="hover:text-sky-400 transition-colors">Skills</a>
+                <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+            </div>
+            <a href="#contact" class="hidden md:block bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-xs font-semibold uppercase tracking-wider px-5 py-2.5 rounded-full hover:opacity-90 transition shadow-lg shadow-sky-500/20">
+                Let's Connect
+            </a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-24 pb-12 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.1),transparent_45%)]"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(129,140,248,0.08),transparent_45%)]"></div>
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left" data-aos="fade-right" data-aos-duration="1000">
+                <span class="inline-block bg-sky-500/10 text-sky-400 border border-sky-500/20 text-xs font-semibold tracking-widest uppercase px-3 py-1.5 rounded-full">
+                    Mechanical Engineering Student
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none text-white">
+                    Hi, I'm <span class="gradient-text">Gowtham D P</span>
+                </h1>
+                <p class="text-lg text-slate-400 max-w-xl mx-auto lg:mx-0 font-medium">
+                    Specializing in PLC Automation, CAD Design, and Embedded Systems. I bridge the gap between robust mechanical design and intelligent automation.
+                </p>
+                <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+                    <a href="#work" class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-sm font-semibold tracking-wide px-6 py-3.5 rounded-xl shadow-lg shadow-sky-500/20 hover:scale-105 transition-all">
+                        Explore Portfolio
+                    </a>
+                    <a href="Gowtham D P.pdf" download="Gowtham_D_P_Resume.pdf" class="bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:bg-slate-800 text-sm font-semibold tracking-wide px-6 py-3.5 rounded-xl transition flex items-center gap-2">
+                        <i class="fa-solid fa-download text-sky-400"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 flex justify-center" data-aos="fade-left">
+                <div class="relative group w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-sky-500 to-indigo-500 rounded-3xl rotate-6 opacity-30 group-hover:rotate-3 transition duration-500 blur-sm"></div>
+                    <div class="w-full h-full bg-slate-900 border-2 border-slate-800 rounded-3xl overflow-hidden relative z-10">
+                        <img src="me .jpeg" alt="Gowtham D P" class="w-full h-full object-cover brightness-105 contrast-110 saturate-110 transition duration-500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE SECTION -->
+    <section id="experience" class="py-24 bg-slate-900/40 relative border-y border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">Qualification & Experience</h2>
+                <div class="h-1 w-20 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-bold tracking-tight text-sky-400 flex items-center gap-3"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <div id="educationContainer" class="space-y-6 border-l-2 border-slate-800 pl-6 ml-2"></div>
+                </div>
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-bold tracking-tight text-indigo-400 flex items-center gap-3"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                    <div id="experienceContainer" class="space-y-6 border-l-2 border-slate-800 pl-6 ml-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UNIFIED WORK SECTION (3 MASTER CARDS) -->
+    <section id="work" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">My Portfolio</h2>
+                <p class="text-slate-400 mt-2 text-sm">Select a category below to view my files, designs, and certificates.</p>
+                <div class="h-1 w-20 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                
+                <!-- CARD 1: ENGINEERING DESIGN -->
+                <div class="glass card-glow rounded-2xl border border-slate-800 p-8 flex flex-col items-center text-center transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-3xl mb-6">
+                        <i class="fa-solid fa-cubes"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Engineering Design</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-medium mb-6 flex-grow">
+                        Parametric 3D CAD modeling, multi-component structural assembly layouts, and mechanical system thermal simulations.
+                    </p>
+                    <button onclick="openDrawer('engineering_designs')" class="w-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-semibold text-xs uppercase tracking-wider py-3 rounded-xl transition cursor-pointer">
+                        Show More Designs <i class="fa-solid fa-chevron-right ml-1.5 text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- CARD 2: PROJECTS -->
+                <div class="glass card-glow rounded-2xl border border-slate-800 p-8 flex flex-col items-center text-center transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 rounded-2xl bg-sky-500/10 flex items-center justify-center text-sky-400 text-3xl mb-6">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Projects</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-medium mb-6 flex-grow">
+                        Autonomous hardware builds, automated PLC control flows, sensor logic systems, and web applications.
+                    </p>
+                    <button onclick="openDrawer('projects')" class="w-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-semibold text-xs uppercase tracking-wider py-3 rounded-xl transition cursor-pointer">
+                        Show More Projects <i class="fa-solid fa-chevron-right ml-1.5 text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- CARD 3: CERTIFICATES -->
+                <div class="glass card-glow rounded-2xl border border-slate-800 p-8 flex flex-col items-center text-center transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-3xl mb-6">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Certificates</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-medium mb-6 flex-grow">
+                        Credentials in industrial automation setups, PLC programming, and advanced mechanical modeling workspaces.
+                    </p>
+                    <button onclick="openDrawer('certificates')" class="w-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-semibold text-xs uppercase tracking-wider py-3 rounded-xl transition cursor-pointer">
+                        Show Certificates <i class="fa-solid fa-chevron-right ml-1.5 text-[10px]"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING DRAWER OVERLAY PANEL -->
+    <div id="drawerOverlay" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden transition-opacity duration-300 opacity-0 flex justify-end">
+        <div class="w-full max-w-2xl bg-slate-900 border-l border-slate-800 h-full flex flex-col shadow-2xl p-6 overflow-y-auto">
+            <div class="flex justify-between items-center pb-4 border-b border-slate-800 mb-6">
+                <div>
+                    <h3 id="drawerTitle" class="text-xl font-bold text-white uppercase tracking-wide">Category Items</h3>
+                    <p class="text-xs text-slate-400 mt-1">Click any item card to navigate straight to the GitHub file repository.</p>
+                </div>
+                <button onclick="closeDrawer()" class="w-10 h-10 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition cursor-pointer">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+            <!-- Dynamic Files List Container -->
+            <div id="drawerContentGrid" class="space-y-4"></div>
+        </div>
+    </div>
+
+    <!-- SKILLS FRAMEWORK MATRIX -->
+    <section id="skills" class="py-24 bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">Technical Frameworks</h2>
+                <div class="h-1 w-20 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass p-6 rounded-2xl"><div class="w-10 h-10 rounded-xl bg-sky-500/10 flex items-center justify-center text-sky-400 mb-4 text-lg"><i class="fa-solid fa-pencil"></i></div><h3 class="text-lg font-bold text-white mb-3">CAD Design</h3><p class="text-xs text-slate-400 leading-relaxed font-medium">AutoCAD, Autodesk Fusion 360, Autodesk Inventor</p></div>
+                <div class="glass p-6 rounded-2xl"><div class="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-4 text-lg"><i class="fa-solid fa-gears"></i></div><h3 class="text-lg font-bold text-white mb-3">Automation</h3><p class="text-xs text-slate-400 leading-relaxed font-medium">PLC Ladder Logic, HMI Basics, SCADA Configurations</p></div>
+                <div class="glass p-6 rounded-2xl"><div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4 text-lg"><i class="fa-solid fa-microchip"></i></div><h3 class="text-lg font-bold text-white mb-3">Embedded Tech</h3><p class="text-xs text-slate-400 leading-relaxed font-medium">Arduino UNO, ESP Modules, Sensor Processing Architectures</p></div>
+                <div class="glass p-6 rounded-2xl"><div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-4 text-lg"><i class="fa-solid fa-code"></i></div><h3 class="text-lg font-bold text-white mb-3">Languages</h3><p class="text-xs text-slate-400 leading-relaxed font-medium">Python Frameworks, Frontend HTML/CSS interfaces</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONNECT REGION -->
+    <section id="contact" class="py-24 relative overflow-hidden bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">Let's Connect</h2>
+                <p class="text-slate-400 mt-2 text-sm">Have a project, job opening, or engineering design request? Reach out directly below.</p>
+                <div class="h-1 w-20 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <!-- OPTION 1: DIRECT EMAIL APP -->
+                <div class="glass card-glow rounded-2xl border border-slate-800 p-8 flex flex-col justify-between items-start transition-all duration-300" data-aos="fade-right">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-sky-500/10 flex items-center justify-center text-sky-400 text-2xl mb-6">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Send an Email Enquiry</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed font-medium mb-6">
+                            Click below to open your default email application. It will automatically pre-format a structured engineering template layout straight to my inbox.
+                        </p>
+                    </div>
+                    <a href="mailto:contact.gowthamdp@gmail.com?subject=Engineering%20Inquiry%20-%20Portfolio&body=Hi%20Gowtham,%0A%0AI%20viewed%20your%20portfolio%20and%20would%20like%20to%20discuss:%0A-%20Project%20Type:%20[CAD%20Design%20/%20PLC%20Automation%20/%20Other]%0A-%20Details:%20%0A%0ABest%20regards,%0A[Your%20Name]" 
+                       class="w-full text-center bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-semibold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg shadow-sky-500/10 hover:opacity-90 transition cursor-pointer">
+                        Open Mail Application <i class="fa-solid fa-envelope ml-1.5"></i>
+                    </a>
+                </div>
+
+                <!-- OPTION 2: INSTANT MESSAGE & CALL -->
+                <div class="glass card-glow rounded-2xl border border-slate-800 p-8 flex flex-col justify-between items-start transition-all duration-300" data-aos="fade-left">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 text-2xl mb-6">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Instant Messaging</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed font-medium mb-6">
+                            Prefer direct messaging or want to arrange a voice call? Reach out directly via LinkedIn or launch an instant chat thread straight to my phone over WhatsApp.
+                        </p>
+                    </div>
+                    <div class="w-full space-y-3">
+                        <a href="https://www.linkedin.com/in/gowtham-d-p-441988325/" target="_blank" class="w-full flex items-center justify-center gap-2 bg-slate-950 border border-slate-800 text-slate-300 hover:text-white hover:border-sky-500/30 font-semibold text-xs uppercase tracking-wider py-3.5 rounded-xl transition">
+                            <i class="fa-brands fa-linkedin text-base text-sky-400"></i> DM on LinkedIn
+                        </a>
+                        <a href="https://wa.me/919353837095?text=Hi%20Gowtham,%20I%20viewed%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" class="w-full flex items-center justify-center gap-2 bg-slate-950 border border-slate-800 text-slate-300 hover:text-white hover:border-emerald-500/30 font-semibold text-xs uppercase tracking-wider py-3.5 rounded-xl transition">
+                            <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- DIRECT CONTACT MATRIX -->
+            <div class="mt-16 pt-10 border-t border-slate-900/60 max-w-2xl mx-auto text-center space-y-6">
+                <div class="space-y-1">
+                    <p class="text-xs uppercase tracking-widest text-slate-500 font-bold">Direct Phone Line</p>
+                    <a href="tel:+919353837095" class="text-xl font-extrabold text-white hover:text-sky-400 transition-colors tracking-wide">+91 9353837095</a>
+                </div>
+                
+                <!-- Quick Access Connect Row -->
+                <div class="flex justify-center items-center gap-4">
+                    <a href="https://wa.me/919353837095" target="_blank" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-800/80 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/20 transition-all text-lg" title="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:contact.gowthamdp@gmail.com" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-800/80 flex items-center justify-center text-slate-400 hover:text-sky-400 hover:border-sky-500/20 transition-all text-lg" title="Email Inbox">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gowtham-d-p-441988325/" target="_blank" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-800/80 flex items-center justify-center text-slate-400 hover:text-blue-400 hover:border-blue-500/20 transition-all text-lg" title="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/gowtham-d-p" target="_blank" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-800/80 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-600 transition-all text-lg" title="GitHub Repository">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500 font-medium">
+        <div class="flex justify-center gap-5 mb-4 text-base">
+            <a href="https://wa.me/919353837095" target="_blank" class="text-slate-400 hover:text-emerald-400 transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:contact.gowthamdp@gmail.com" class="text-slate-400 hover:text-sky-400 transition-colors"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/gowtham-d-p-441988325/" target="_blank" class="text-slate-400 hover:text-blue-400 transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/gowtham-d-p" target="_blank" class="text-slate-400 hover:text-white transition-colors"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p>&copy; 2026 Gowtham D P. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            // Preloader handler
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    document.getElementById("preloader").classList.add("opacity-0");
+                    document.body.classList.remove("overflow-hidden");
+                    setTimeout(() => document.getElementById("preloader").style.display = "none", 700);
+                }, 500);
+            });
+
+            // Global data repository structure storage
+            let globalPortfolioData = { projects: [], engineering_designs: [], certificates: [] };
+
+            // Drawer structural node controllers
+            const overlay = document.getElementById("drawerOverlay");
+            const dTitle = document.getElementById("drawerTitle");
+            const dGrid = document.getElementById("drawerContentGrid");
+
+            window.openDrawer = (categoryKey) => {
+                const titles = {
+                    'projects': 'Uploaded Engineering Projects',
+                    'engineering_designs': 'Uploaded CAD Designs & Blueprints',
+                    'certificates': 'Verified Qualifications & Certifications'
+                };
+                dTitle.innerText = titles[categoryKey] || 'Uploaded Files';
+                dGrid.innerHTML = '';
+
+                const itemsList = globalPortfolioData[categoryKey] || [];
+                
+                if (itemsList.length === 0) {
+                    dGrid.innerHTML = `<p class="text-sm text-slate-500 text-center py-12">No uploaded files discovered in database context.</p>`;
+                } else {
+                    itemsList.forEach(item => {
+                        dGrid.innerHTML += `
+                            <a href="${item.link}" target="_blank" class="block group/item bg-slate-950 border border-slate-800/80 hover:border-sky-500/30 p-5 rounded-xl transition-all duration-300">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-xl glass border border-slate-800 flex items-center justify-center text-slate-400 group-hover/item:text-sky-400 group-hover/item:border-sky-500/20 transition-all">
+                                        <i class="${item.iconClass || 'fa-solid fa-file'} text-xl"></i>
+                                    </div>
+                                    <div class="flex-grow">
+                                        <h4 class="text-sm font-bold text-slate-200 group-hover/item:text-white transition-colors">${item.title}</h4>
+                                        <p class="text-xs text-slate-400 mt-1 leading-relaxed">${item.description}</p>
+                                    </div>
+                                    <div class="text-slate-500 group-hover/item:text-sky-400 transition-colors pl-2">
+                                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                                    </div>
+                                </div>
+                            </a>`;
+                    });
+                }
+
+                overlay.classList.remove('hidden');
+                setTimeout(() => {
+                    overlay.classList.remove('opacity-0');
+                }, 50);
+                document.body.classList.add('overflow-hidden');
+            };
+
+            window.closeDrawer = () => {
+                overlay.classList.add('opacity-0');
+                setTimeout(() => {
+                    overlay.classList.add('hidden');
+                }, 300);
+                document.body.classList.remove('overflow-hidden');
+            };
+
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) closeDrawer();
+            });
+
+            // Fetch and parse data parameters setup
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                
+                const eduContainer = document.getElementById('educationContainer');
+                data.education.forEach(item => {
+                    eduContainer.innerHTML += `
+                        <div class="relative" data-aos="fade-up">
+                            <div class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-sky-500"></div>
+                            <span class="text-xs font-bold text-indigo-400 uppercase">${item.period}</span>
+                            <h4 class="text-lg font-bold text-white mt-1">${item.degree}</h4>
+                            <p class="text-sm text-slate-400 font-medium">${item.institution}</p>
+                            ${item.details ? `<span class="inline-block mt-2 text-xs bg-slate-800 text-slate-300 font-semibold px-2 py-1 rounded">${item.details}</span>` : ''}
+                        </div>`;
+                });
+
+                const expContainer = document.getElementById('experienceContainer');
+                data.experience.forEach(item => {
+                    const bullets = item.highlights.map(h => `<li>${h}</li>`).join('');
+                    expContainer.innerHTML += `
+                        <div class="relative" data-aos="fade-up">
+                            <div class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-indigo-500"></div>
+                            <span class="text-xs font-bold text-sky-400 uppercase">${item.period}</span>
+                            <h4 class="text-lg font-bold text-white mt-1">${item.role}</h4>
+                            <p class="text-sm text-slate-400 font-medium mb-3">${item.company}</p>
+                            <ul class="text-sm text-slate-400 space-y-2 list-disc list-inside font-normal">${bullets}</ul>
+                        </div>`;
+                });
+
+                globalPortfolioData.projects = data.projects || [];
+                globalPortfolioData.engineering_designs = data.engineering_designs || [];
+                globalPortfolioData.certificates = data.certificates || [];
+
+                AOS.init({ once: true, duration: 800 });
+
+            } catch (err) {
+                console.error("Critical Runtime UI Error:", err);
+            }
+        });
+    </script>
+</body>
+</html>

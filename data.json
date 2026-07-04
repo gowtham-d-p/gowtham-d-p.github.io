@@ -1,0 +1,92 @@
+{
+  "education": [
+    {
+      "period": "Sept 2025 - Present",
+      "degree": "Bachelor of Mechanical Engineering",
+      "institution": "Government Engineering College, Hassan",
+      "details": ""
+    },
+    {
+      "period": "Oct 2022 - Apr 2025",
+      "degree": "Diploma in Mechanical Engineering",
+      "institution": "Smt LV (Government) Polytechnic, Hassan",
+      "details": "9.24 CGPA"
+    }
+  ],
+
+  "experience": [
+    {
+      "period": "Dec 2024 - Apr 2025",
+      "role": "Research and Development Intern",
+      "company": "MIPZO EdTech Pvt Ltd",
+      "highlights": [
+        "Designed engineering prototypes using Fusion 360 & AutoCAD for robotics.",
+        "Integrated Arduino-based modules (ultrasonic/IR sensors).",
+        "Performed circuit debugging and material usage optimization."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Obstacle Avoiding Sensor Car",
+      "description": "Arduino-based autonomous vehicle built with ultrasonic sensors and an L298N motor driver for real-time logic navigation execution.",
+      "link": "https://github.com/GowthamDP/obstacle-avoiding-car",
+      "iconClass": "fa-solid fa-robot text-sky-500/40"
+    },
+    {
+      "title": "PLC Water Level Control",
+      "description": "Automated logic tracking water level variables via integrated sensors, using structured ladder logic blocks to control pump operation safely.",
+      "link": "https://github.com/GowthamDP/plc-water-level",
+      "iconClass": "fa-solid fa-faucet-drip text-indigo-500/40"
+    },
+    {
+      "title": "Dual-Tank Automated Drainage Control",
+      "description": "Sequential tank filling and drainage management automation implemented through structured industrial PLC logic controllers.",
+      "link": "https://github.com/GowthamDP/plc-drainage-system",
+      "iconClass": "fa-solid fa-gears text-purple-500/40"
+    },
+    {
+      "title": "Face Recognition Attendance System",
+      "description": "Full-stack biometric attendance tracking app designed for club member tracking with administrative security dashboard tools.",
+      "link": "https://github.com/GowthamDP/face-recognition-attendance",
+      "iconClass": "fa-solid fa-user-check text-blue-500/40"
+    }
+  ],
+
+  "engineering_designs": [
+    {
+      "title": "Parametric 3D Model Gallery",
+      "description": "Robust component layouts and multi-component assembly models constructed via detailed geometric constraints inside Fusion 360 & Autodesk Inventor.",
+      "link": "https://github.com/GowthamDP/parametric-cad-models",
+      "iconClass": "fa-solid fa-cubes text-cyan-500/40"
+    },
+    {
+      "title": "Structural & Thermal Simulation",
+      "description": "Validation models demonstrating structural stress distributions, meshing constraints, and loading evaluation criteria using ANSYS Student Version.",
+      "link": "https://github.com/GowthamDP/ansys-simulations",
+      "iconClass": "fa-solid fa-chart-line text-rose-500/40"
+    },
+    {
+      "title": "Robotics Prototype Chassis Layout",
+      "description": "Optimized mechanical framework layout drafted completely in AutoCAD for laser cutting fabrication production runs.",
+      "link": "https://github.com/GowthamDP/robot-chassis-design",
+      "iconClass": "fa-solid fa-car-chassis text-amber-500/40"
+    }
+  ],
+
+  "certificates": [
+    {
+      "title": "PLC Automation and SCADA Systems Certificate",
+      "description": "Comprehensive certification covering PLC Ladder Logic programming, HMI interface configuration, and SCADA monitoring architectures.",
+      "link": "https://learn.automationcommunity.com/tutor-certificate?cert_hash=929e2d232d51d5a4",
+      "iconClass": "fa-solid fa-award text-amber-500/40"
+    },
+    {
+      "title": "Autodesk Fusion 360 Design Certificate",
+      "description": "Validated expertise in design drafting, complex 3D assembly generation, mechanical simulation workspaces, and parametric features layout.",
+      "link": "https://example.com/verify/fusion360-cert-id",
+      "iconClass": "fa-solid fa-certificate text-emerald-500/40"
+    }
+  ]
+}
