@@ -31,48 +31,31 @@
     {
       "title": "Obstacle Avoiding Sensor Car",
       "description": "Arduino-based autonomous vehicle built with ultrasonic sensors and an L298N motor driver for real-time logic navigation execution.",
-      "link": "https://github.com/GowthamDP/obstacle-avoiding-car",
+      "link": "https://drive.google.com/file/d/1bAI9qhWmMk_oZpPRLMw0rsW_YANvE2HB/view?usp=sharing",
       "iconClass": "fa-solid fa-robot text-sky-500/40"
     },
     {
       "title": "PLC Water Level Control",
       "description": "Automated logic tracking water level variables via integrated sensors, using structured ladder logic blocks to control pump operation safely.",
-      "link": "https://github.com/GowthamDP/plc-water-level",
+      "link": "https://drive.google.com/file/d/1vgduBa-RzDHKB_MI0-6OecSZ6gCXmfrM/view?usp=sharing",
       "iconClass": "fa-solid fa-faucet-drip text-indigo-500/40"
-    },
-    {
-      "title": "Dual-Tank Automated Drainage Control",
-      "description": "Sequential tank filling and drainage management automation implemented through structured industrial PLC logic controllers.",
-      "link": "https://github.com/GowthamDP/plc-drainage-system",
-      "iconClass": "fa-solid fa-gears text-purple-500/40"
-    },
-    {
-      "title": "Face Recognition Attendance System",
-      "description": "Full-stack biometric attendance tracking app designed for club member tracking with administrative security dashboard tools.",
-      "link": "https://github.com/GowthamDP/face-recognition-attendance",
-      "iconClass": "fa-solid fa-user-check text-blue-500/40"
     }
   ],
 
   "engineering_designs": [
     {
-      "title": "Parametric 3D Model Gallery",
-      "description": "Robust component layouts and multi-component assembly models constructed via detailed geometric constraints inside Fusion 360 & Autodesk Inventor.",
+      "title": "Spur Gear Design & Simulation",
+      "description": "This project demonstrates the design of a spur gear in Fusion 360 and its structural analysis in ANSYS.",
       "link": "https://github.com/gowtham-d-p/spur-gear-fusion360-ansys",
       "iconClass": "fa-solid fa-cubes text-cyan-500/40"
     },
     {
-      "title": "Structural & Thermal Simulation",
-      "description": "Validation models demonstrating structural stress distributions, meshing constraints, and loading evaluation criteria using ANSYS Student Version.",
+      "title": "Stepped Shaft – CAD & FEA Analysis",
+      "description": "This project focuses on the design and analysis of a stepped shaft to evaluate its structural performance under load. The shaft was modeled using Autodesk Fusion 360 and analyzed in ANSYS Workbench with a Static Structural + Fatigue assessment.",
       "link": "https://github.com/GowthamDP/ansys-simulations",
       "iconClass": "fa-solid fa-chart-line text-rose-500/40"
-    },
-    {
-      "title": "Robotics Prototype Chassis Layout",
-      "description": "Optimized mechanical framework layout drafted completely in AutoCAD for laser cutting fabrication production runs.",
-      "link": "https://github.com/GowthamDP/robot-chassis-design",
-      "iconClass": "fa-solid fa-car-chassis text-amber-500/40"
     }
+    
   ],
 
   "certificates": [
@@ -85,7 +68,7 @@
     {
       "title": "Autodesk Fusion 360 Design Certificate",
       "description": "Validated expertise in design drafting, complex 3D assembly generation, mechanical simulation workspaces, and parametric features layout.",
-      "link": "https://example.com/verify/fusion360-cert-id",
+      "link": "https://drive.google.com/file/d/16otlcQ5H6VQkX2_MYUSfOXrvumIxyOE6/view?usp=sharing",
       "iconClass": "fa-solid fa-certificate text-emerald-500/40"
     }
   ]
