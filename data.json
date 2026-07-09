@@ -52,7 +52,7 @@
     {
       "title": "Stepped Shaft – CAD & FEA Analysis",
       "description": "This project focuses on the design and analysis of a stepped shaft to evaluate its structural performance under load. The shaft was modeled using Autodesk Fusion 360 and analyzed in ANSYS Workbench with a Static Structural + Fatigue assessment.",
-      "link": "https://github.com/GowthamDP/ansys-simulations",
+      "link": "https://github.com/gowtham-d-p/stepped-shaft-fea-fusion-ansys",
       "iconClass": "fa-solid fa-chart-line text-rose-500/40"
     }
     
