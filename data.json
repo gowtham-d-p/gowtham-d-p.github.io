@@ -44,6 +44,12 @@
 
   "engineering_designs": [
     {
+      "title": "Knuckle Joint Assembly",
+      "description": "A CAD design and structural analysis project of a Knuckle Joint developed using Autodesk Inventor and ANSYS Workbench Student.",
+      "link": "https://github.com/gowtham-d-p/Knuckle-Joint-Assembly",
+      "iconClass": "fa-solid fa-cubes text-cyan-500/40"
+    },
+    {
       "title": "Spur Gear Design & Simulation",
       "description": "This project demonstrates the design of a spur gear in Fusion 360 and its structural analysis in ANSYS.",
       "link": "https://github.com/gowtham-d-p/spur-gear-fusion360-ansys",
@@ -52,7 +58,7 @@
     {
       "title": "Stepped Shaft – CAD & FEA Analysis",
       "description": "This project focuses on the design and analysis of a stepped shaft to evaluate its structural performance under load. The shaft was modeled using Autodesk Fusion 360 and analyzed in ANSYS Workbench with a Static Structural + Fatigue assessment.",
-      "link": "https://github.com/gowtham-d-p/stepped-shaft-fea-fusion-ansys",
+      "link": "https://github.com/GowthamDP/ansys-simulations",
       "iconClass": "fa-solid fa-chart-line text-rose-500/40"
     }
     
