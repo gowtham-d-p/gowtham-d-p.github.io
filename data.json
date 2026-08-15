@@ -71,6 +71,12 @@
   ],
 
   "certificates": [
+     {
+      "title": "Internship Completion - Mipzo EdTech Private Limited",
+      "description": "Successfully completed an internship at Mipzo EdTech Private Limited, Hassan, from December 9, 2024, to April 4, 2025. Acquired valuable technical skills and demonstrated dedication and commitment during the program.",
+      "link": "https://drive.google.com/file/d/12hK7U6DpRBnCuGcIlwQlXYNsELvoDbvI/view",
+      "iconClass": "fa-solid fa-award text-amber-500/40"
+    },
     {
       "title": "PLC Automation and SCADA Systems Certificate",
       "description": "Comprehensive certification covering PLC Ladder Logic programming, HMI interface configuration, and SCADA monitoring architectures.",
