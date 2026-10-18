@@ -43,6 +43,12 @@
   ],
 
   "engineering_designs": [
+     {
+      "title": 2-Cylinder Horizontal Steam Engine — Non-Reversing",
+      "description": "3D CAD design of a 2-Cylinder Horizontal Steam Engine (Non-Reversing), featuring a mechanical assembly that converts reciprocating piston motion into rotary motion through a crankshaft and connecting-rod mechanism. Developed as a Mechanical Engineering design project using SolidWorks.",
+      "link": "https://github.com/gowtham-d-p/2-cylinder-horizontal-steam-engine-non-reversing",
+      "iconClass": "fa-solid fa-cubes text-cyan-500/40"
+    },
     {
       "title": "Screw Jack – 3D CAD Design & FEA Analysis",
       "description": "This project presents the 3D CAD design and Finite Element Analysis (FEA) of a Screw Jack developed for mechanical lifting applications.The project covers the development of the 3D assembly, preparation of the model for simulation, mesh generation, application of structural loading and evaluation of the resulting stress, deformation and safety factor.",
