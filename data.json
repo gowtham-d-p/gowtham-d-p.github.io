@@ -44,7 +44,7 @@
 
   "engineering_designs": [
      {
-      "title": 2-Cylinder Horizontal Steam Engine — Non-Reversing",
+      "title": "2-Cylinder Horizontal Steam Engine — Non-Reversing",
       "description": "3D CAD design of a 2-Cylinder Horizontal Steam Engine (Non-Reversing), featuring a mechanical assembly that converts reciprocating piston motion into rotary motion through a crankshaft and connecting-rod mechanism. Developed as a Mechanical Engineering design project using SolidWorks.",
       "link": "https://github.com/gowtham-d-p/2-cylinder-horizontal-steam-engine-non-reversing",
       "iconClass": "fa-solid fa-cubes text-cyan-500/40"
